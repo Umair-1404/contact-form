@@ -6,7 +6,7 @@ body {
   color: #666900;
 }
 .icons {
-  padding: 100px;
+  padding: 5px;
   width: 100%;
 }
 i{
@@ -14,14 +14,14 @@ i{
 }
 .icon-1 {
   background-color: #bc9864;
-  width: 40%;
+  width: 40px;
+  height: 40px;
   justify-content: center;
   text-align: center;
   border-radius: 80px;
   padding: 2px;
   font-size: 20px;
-  text-align: center;
-  margin: 5px 25px;
+  margin: 5px 103px;
 }
 h3 {
   color: white;
@@ -47,14 +47,12 @@ textarea{
     border: 1px solid black;
     border-radius: 5px;  
 }
-.flex-container{
-  display: inline;
-  margin: 0.5px 300px;
-}
 
 .flex-data {
-    font-size: 20px;
-    line-height: 1.8;
+  font-size: 20px;
+  line-height: 1.8;
+  /* width: 90px; */
+  margin: 0.1px 74px;
 }
 
 span {
@@ -74,7 +72,9 @@ span {
     background-color: black;
     display: inline-flex;
     justify-content: center;
-    text-align: center;
+    text-align: center; 
+    display: flex;
+    margin: 0.5px 350px;
   }
 
 .inputs {
