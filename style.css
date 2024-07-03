@@ -1,0 +1,100 @@
+body {
+  font-family: "Poppins";
+  line-height: 1.8;
+  font-weight: normal;
+  background: black;
+  color: #666900;
+}
+.icons {
+  padding: 100px;
+  width: 100%;
+}
+i{
+  color: #666666;
+}
+.icon-1 {
+  background-color: #bc9864;
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+  border-radius: 80px;
+  padding: 2px;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px 25px;
+}
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+p {
+  font-size: 14px;
+  font-weight: bolder;
+}
+input {
+  background-color: #5050504d;
+  width: 30%;
+  height: 30px;
+  padding: 4px 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+textarea{
+    background-color: #5050504d;
+    width: 30%;
+    padding: 4px 40px;
+    border: 1px solid black;
+    border-radius: 5px;  
+}
+.flex-container{
+  display: inline;
+  margin: 0.5px 300px;
+}
+
+.flex-data {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+span {
+  justify-content: center;
+  font-weight: 500;
+  color: #bc9864;
+}
+.container {
+    background-color: black;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+    border-radius: 500px;
+  }
+  .flex-container {
+    background-color: black;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+.inputs {
+  color: white;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.59);
+  font-size: 15px !important;
+  font-family: "Poppins";
+}
+
+.button {
+  width: 35%;
+  height: 40px;
+  background: #bc9864 !important;
+  border-color: #bc9864 !important;
+  border-radius: 5px;
+  color: black;
+  font-weight: 700;
+}
