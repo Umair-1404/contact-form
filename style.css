@@ -103,6 +103,12 @@ span {
   color: black;
   font-weight: 700;
 }
+.pop-up{
+  /* display: block; */
+  color: red;
+  font-weight: 200;
+  /* padding-right: 225px; */
+}
 
 @media only screen and (max-width: 768px){
   .grid-container{

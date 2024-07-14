@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="welcome.html">
     <title>Contact Form</title>
   </head>
   <body>
@@ -41,30 +42,32 @@
         </div>
       </div>
     </div>
-    <h3>Get in touch with us</h3>
+    <h3>Login</h3>
 
     <div class="container">
-      <form>
-        <div><input type="text" class="inputs" placeholder="Name" /><br /></div>
+      <form action="welcome.html" mssethod="post" onsubmit="return validate()">
         <div>
-          <input type="email" class="inputs" placeholder="Email" /><br />
+          <input type="text" class="inputs" id="user" placeholder="Name." /><br /></div>
+        <span id="uname" class="pop-up" style="width: 100% ;text-align: left;"></span>
+        <div>
+          <input type="password" class="inputs" id="password1" placeholder="Enter Password." /><br />
+          <span id="pass1" class="pop-up" ></span>
         </div>
         <div>
-          <input type="text" class="inputs" placeholder="Subjects" /><br />
+        <input type="password" class="inputs" id="password2" placeholder="Re-enter Password." /><br />
+        <span id="pass2" class="pop-up"></span>
         </div>
         <div>
-          <textarea
-            name="text"
-            id="message"
-            class="inputs"
-            placeholder="Message"
-            cols="30"
-            rows="8"
-          ></textarea
-          ><br />
-        </div>
-        <button class="button">SEND MESSAGE</button>
+          <input type="email" class="inputs" id="email" placeholder="Email." /><br />
+        <span id="email_id" class="pop-up"></span>
+      </div>
+        <div>
+          <input type="number" class="inputs" id="phone" placeholder="Phone No." /><br />
+          <span id="phone_no" class="pop-up"></span>
+      </div>
+        <button type="submit" class="button">Login</button>
       </form>
     </div>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
